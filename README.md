@@ -11,6 +11,8 @@ We have made our cleaned FASTQ* files available at the following SRA: [SRP250294
 
 **Note these FASTQs have been depleted of host sequences and other contaminating sequences.
 
+We are additionally making our data available at [LabKey](https://openresearch.labkey.com/wiki/ZEST/Ncov/page.view?name=SARS-CoV-2%20Deep%20Sequencing). 
+
 ---------------------
 ## Scripts used
 ### ONT scripts 
@@ -49,6 +51,8 @@ To characterize within-host viral diversity of this emerging virus, we obtained 
     - Vero 76; ATCC CRL-1587
     - Vero E6, C1008; ATCC CRL-1586
     - Vero STAT-1 KO; ATCC CCL-81-VHG 
+
+**We will continue to update this repository as we sequence additional samples.**
 
 We used [Sequence-Independent, Single-Primer Amplification (SISPA)](https://www.protocols.io/view/sequence-independent-single-primer-amplification-o-bckxiuxn) to capture and enrich viral nucleic acid. We then prepared libraries for Oxford Nanopore Sequencing on a GridION using the 1D ligation sequencing kit (SQK-LSK109) with its native barcodes and sequenced on an R9.4 flow cell. In parallel we prepared Nextera XT libraries for sequencing on an Illumina MiSeq platform. 
 
