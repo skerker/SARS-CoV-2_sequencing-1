@@ -1,3 +1,5 @@
 **/.DS_Store
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+coverage/.ipynb_checkpoints
+diversity/.ipynb_checkpoints
+SNP_frequency_spectrum/.ipynb_checkpoints
+SNVs.ipynb_checkpoints
