@@ -157,7 +157,7 @@ After obtaining Illumina sequencing data, we were able to validate ONT’s abili
 
 **Illumina SNP Frequency Spectrum**
 
-![SFS](SFS-01.png) 
+![SFS](figures/SFS-01.png) 
 
 An excess of low-frequency variants can occur due to purifying selection acting to remove new variants before they can reach mid- or high-frequencies. Exponential population expansion can also cause an excess of low-frequency variation. This is likely the signal we are picking up here. 
 
