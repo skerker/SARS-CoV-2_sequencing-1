@@ -34,7 +34,7 @@ A brief description of the ONT workflow contents:
 
 All scripts used for data analysis and figure generation are available in the zipped directory `Illumina_scripts` attached below.  
 A brief description of the Illumina workflow contents: 
-- `Sniffles.py` was used to process raw data. Sniffles is a pipeline originally written for the analysis of influenza genomes, but has been minimally adapted for analysis of SARS-CoV-2 here. It is a configurable pipeline that performs multiple functions to generate variant and consensus level information. It requires minimal dependencies as the pipeline relies on a docker container to host the software. All parameters for this script are defined in the `config.yml` file. 
+- `Sniffles.py` was used to process raw data [This pipeline was written by Kelsey Florek and Joe Lalli]. Sniffles is a pipeline originally written for the analysis of influenza genomes, but has been minimally adapted for analysis of SARS-CoV-2 here. It is a configurable pipeline that performs multiple functions to generate variant and consensus level information. It requires minimal dependencies as the pipeline relies on a docker container to host the software. All parameters for this script are defined in the `config.yml` file. 
 - All figures were generated using matplolib packages in Jupyter Notebook scripts. All derived data and scripts are available within the `Illumina_scripts` zipped directory as well. Specific instructions for running each analysis is outlined as the top of each Jupyter Notebook file. 
 	- Coverage per gene was generated using `coverage/coverage.ipynb`
 	- Genewise nucleotide diversity was generated using `diversity/diversity.ipynb`
